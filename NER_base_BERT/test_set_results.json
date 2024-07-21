@@ -1,0 +1,1161 @@
+[
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9707890748977661,
+            "word": "673981645",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8841797709465027,
+            "word": "20 / 05 / 2022",
+            "start": 39,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.867830753326416,
+            "word": "87",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.7905418872833252,
+            "word": "##nal failure",
+            "start": 97,
+            "end": 108
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9688148498535156,
+            "word": "957381420",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8881466388702393,
+            "word": "2021 / 10 / 20",
+            "start": 39,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8964198231697083,
+            "word": "72",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5169904828071594,
+            "word": "cancer",
+            "start": 95,
+            "end": 101
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.971487820148468,
+            "word": "407329418",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.6640119552612305,
+            "word": "02nd April 2018",
+            "start": 40,
+            "end": 55
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8996968865394592,
+            "word": "76",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.435037225484848,
+            "word": "complications",
+            "start": 97,
+            "end": 110
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4845567047595978,
+            "word": "diabetes",
+            "start": 114,
+            "end": 122
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9710332751274109,
+            "word": "412938670",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.6581924557685852,
+            "word": "02 May 2017",
+            "start": 45,
+            "end": 56
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8982292413711548,
+            "word": "53",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6831740140914917,
+            "word": "brain hemorrhage",
+            "start": 99,
+            "end": 115
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9676429033279419,
+            "word": "285390462",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8725975155830383,
+            "word": "13 / 03 / 2020",
+            "start": 39,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8843773007392883,
+            "word": "68",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5867394804954529,
+            "word": "pneumonia",
+            "start": 95,
+            "end": 104
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9512529373168945,
+            "word": "157807564",
+            "start": 14,
+            "end": 23
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.7659978866577148,
+            "word": "June 21, 2017",
+            "start": 37,
+            "end": 51
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8872103095054626,
+            "word": "77",
+            "start": 66,
+            "end": 68
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.43305450677871704,
+            "word": "acute poisoning",
+            "start": 76,
+            "end": 91
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9732983112335205,
+            "word": "673189250",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9061405062675476,
+            "word": "2021 / 03 / 08",
+            "start": 40,
+            "end": 50
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9171359539031982,
+            "word": "80",
+            "start": 60,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5891996026039124,
+            "word": "lung cancer",
+            "start": 92,
+            "end": 103
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9710332751274109,
+            "word": "412938670",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.6581924557685852,
+            "word": "02 May 2017",
+            "start": 45,
+            "end": 56
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8982292413711548,
+            "word": "53",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6831740140914917,
+            "word": "brain hemorrhage",
+            "start": 99,
+            "end": 115
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9742544293403625,
+            "word": "369810273",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8324166536331177,
+            "word": "April 14, 2019",
+            "start": 54,
+            "end": 69
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8895964622497559,
+            "word": "71",
+            "start": 79,
+            "end": 81
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6510904431343079,
+            "word": "cardiac arrest",
+            "start": 111,
+            "end": 125
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9681377410888672,
+            "word": "168320549",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8474286198616028,
+            "word": "October 03, 2019",
+            "start": 54,
+            "end": 71
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8907867074012756,
+            "word": "84",
+            "start": 81,
+            "end": 83
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5812205672264099,
+            "word": "lung cancer",
+            "start": 113,
+            "end": 124
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9628075361251831,
+            "word": "409381813",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.7978247404098511,
+            "word": "21 Nov 2023",
+            "start": 40,
+            "end": 51
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8963928818702698,
+            "word": "67",
+            "start": 59,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.7274492979049683,
+            "word": "myocardial infarction",
+            "start": 79,
+            "end": 100
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9718438386917114,
+            "word": "752364810",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8804275393486023,
+            "word": "20 / 11 / 2021",
+            "start": 39,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9040655493736267,
+            "word": "77",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4384460747241974,
+            "word": "stroke",
+            "start": 95,
+            "end": 101
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9644030332565308,
+            "word": "160926758",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8484355211257935,
+            "word": "January 04, 2023",
+            "start": 40,
+            "end": 57
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8027555346488953,
+            "word": "93",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6400955319404602,
+            "word": "homicidal violence",
+            "start": 85,
+            "end": 103
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9454308748245239,
+            "word": "195428703",
+            "start": 16,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9057818055152893,
+            "word": "2022 - 05 - 29",
+            "start": 34,
+            "end": 44
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5611953139305115,
+            "word": "pan",
+            "start": 52,
+            "end": 55
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.715576171875,
+            "word": "##atic cancer",
+            "start": 58,
+            "end": 69
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9071801900863647,
+            "word": "70",
+            "start": 84,
+            "end": 86
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9724413156509399,
+            "word": "455092131",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.7862758636474609,
+            "word": "10 Dec 2022",
+            "start": 54,
+            "end": 65
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6063099503517151,
+            "word": "cirrhosis",
+            "start": 73,
+            "end": 82
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8887917995452881,
+            "word": "64",
+            "start": 113,
+            "end": 115
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9749831557273865,
+            "word": "651696665",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8145920038223267,
+            "word": "November 11, 2023",
+            "start": 54,
+            "end": 72
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6172938346862793,
+            "word": "homicidal violence",
+            "start": 80,
+            "end": 98
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.7449548244476318,
+            "word": "24",
+            "start": 129,
+            "end": 131
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9720014929771423,
+            "word": "398762431",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.7058566212654114,
+            "word": "10 April 2021",
+            "start": 54,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9171841144561768,
+            "word": "85",
+            "start": 77,
+            "end": 79
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9767155647277832,
+            "word": "623170589",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8998600840568542,
+            "word": "2021 / 11 / 04",
+            "start": 40,
+            "end": 50
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9012534022331238,
+            "word": "55",
+            "start": 60,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4178428649902344,
+            "word": "motor vehicle accident",
+            "start": 92,
+            "end": 114
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9627704620361328,
+            "word": "204932720",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8640832304954529,
+            "word": "July 04, 2020",
+            "start": 40,
+            "end": 54
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8630472421646118,
+            "word": "88",
+            "start": 64,
+            "end": 66
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4736965000629425,
+            "word": "c",
+            "start": 96,
+            "end": 97
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6247397065162659,
+            "word": "##bro",
+            "start": 100,
+            "end": 103
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.7309891581535339,
+            "word": "##cular accident",
+            "start": 106,
+            "end": 120
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9765384793281555,
+            "word": "682190435",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8223720788955688,
+            "word": "January 05, 2017",
+            "start": 43,
+            "end": 60
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9229049682617188,
+            "word": "85",
+            "start": 70,
+            "end": 72
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4113442897796631,
+            "word": "complications",
+            "start": 110,
+            "end": 123
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4506525695323944,
+            "word": "stroke",
+            "start": 127,
+            "end": 133
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9744625091552734,
+            "word": "754291063",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.834607720375061,
+            "word": "25 / 12 / 2020",
+            "start": 39,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9049773812294006,
+            "word": "77",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6841691136360168,
+            "word": "renal failure",
+            "start": 95,
+            "end": 108
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9741987586021423,
+            "word": "688470672",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8140192031860352,
+            "word": "Sep 14, 2022",
+            "start": 46,
+            "end": 59
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8112844228744507,
+            "word": "90",
+            "start": 74,
+            "end": 76
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6105619668960571,
+            "word": "vehicular collision",
+            "start": 93,
+            "end": 112
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9346472024917603,
+            "word": "176558446",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8796377182006836,
+            "word": "2017 - 11 - 06",
+            "start": 46,
+            "end": 56
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8987716436386108,
+            "word": "70",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4876170754432678,
+            "word": "drug toxicity",
+            "start": 90,
+            "end": 103
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9734641909599304,
+            "word": "763215980",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8376641273498535,
+            "word": "May 30, 2021",
+            "start": 54,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8852174878120422,
+            "word": "78",
+            "start": 77,
+            "end": 79
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6891023516654968,
+            "word": "renal failure",
+            "start": 109,
+            "end": 122
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.973727822303772,
+            "word": "573819240",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8428066372871399,
+            "word": "March 30, 2023",
+            "start": 52,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9032989144325256,
+            "word": "50",
+            "start": 77,
+            "end": 79
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.45659711956977844,
+            "word": "diabetes",
+            "start": 117,
+            "end": 125
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9765316247940063,
+            "word": "542913607",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8115638494491577,
+            "word": "March 14, 2019",
+            "start": 45,
+            "end": 60
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8620925545692444,
+            "word": "82",
+            "start": 75,
+            "end": 77
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6185235977172852,
+            "word": "cardiac arrest",
+            "start": 103,
+            "end": 117
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9632760882377625,
+            "word": "11128395",
+            "start": 12,
+            "end": 20
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8023972511291504,
+            "word": "03 - Jul - 2018",
+            "start": 42,
+            "end": 53
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.7537901997566223,
+            "word": "30",
+            "start": 61,
+            "end": 63
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.46846479177474976,
+            "word": "drug toxicity",
+            "start": 88,
+            "end": 101
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9759780764579773,
+            "word": "472993388",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.792078971862793,
+            "word": "March 15, 2018",
+            "start": 40,
+            "end": 55
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9180266261100769,
+            "word": "80",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5327335596084595,
+            "word": "chronic o",
+            "start": 97,
+            "end": 106
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6891844868659973,
+            "word": "##tructive pulmonary disease",
+            "start": 108,
+            "end": 134
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9759847521781921,
+            "word": "648135097",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8272441625595093,
+            "word": "June 30, 2020",
+            "start": 52,
+            "end": 66
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9177530407905579,
+            "word": "80",
+            "start": 76,
+            "end": 78
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.743416428565979,
+            "word": "myocardial infarction",
+            "start": 116,
+            "end": 137
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9585708975791931,
+            "word": "31170028",
+            "start": 3,
+            "end": 11
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8585850596427917,
+            "word": "11 / 12 / 2022",
+            "start": 46,
+            "end": 56
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8280861377716064,
+            "word": "95",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6666861772537231,
+            "word": "homicidal violence",
+            "start": 99,
+            "end": 117
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9730978012084961,
+            "word": "714865390",
+            "start": 16,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.7678174376487732,
+            "word": "15th Nov 2022",
+            "start": 34,
+            "end": 47
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.3500933051109314,
+            "word": "complications",
+            "start": 55,
+            "end": 68
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4039507806301117,
+            "word": "COVID",
+            "start": 72,
+            "end": 77
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.22046391665935516,
+            "word": "19",
+            "start": 78,
+            "end": 80
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8831276893615723,
+            "word": "85",
+            "start": 95,
+            "end": 97
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9677162170410156,
+            "word": "312480759",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8272027969360352,
+            "word": "April 20, 2021",
+            "start": 40,
+            "end": 55
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8981943726539612,
+            "word": "61",
+            "start": 63,
+            "end": 65
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6638134121894836,
+            "word": "heart failure",
+            "start": 83,
+            "end": 96
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9657012820243835,
+            "word": "168423509",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8279542922973633,
+            "word": "June 30, 2020",
+            "start": 45,
+            "end": 59
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.905307948589325,
+            "word": "68",
+            "start": 69,
+            "end": 71
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.5897405743598938,
+            "word": "lung cancer",
+            "start": 101,
+            "end": 112
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9746254682540894,
+            "word": "684915763",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9089083671569824,
+            "word": "2022 - 03 - 28",
+            "start": 47,
+            "end": 57
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6126311421394348,
+            "word": "septicemia",
+            "start": 65,
+            "end": 75
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9117745161056519,
+            "word": "72",
+            "start": 106,
+            "end": 108
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9754236340522766,
+            "word": "943176250",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.8442688584327698,
+            "word": "April 07, 2019",
+            "start": 45,
+            "end": 60
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.8595261573791504,
+            "word": "82",
+            "start": 75,
+            "end": 77
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.6187556982040405,
+            "word": "cardiac arrest",
+            "start": 103,
+            "end": 117
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9735657572746277,
+            "word": "622794637",
+            "start": 28,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.80771803855896,
+            "word": "January 07, 2017",
+            "start": 55,
+            "end": 72
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9026927351951599,
+            "word": "65",
+            "start": 82,
+            "end": 84
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.4592577815055847,
+            "word": "drug toxicity",
+            "start": 122,
+            "end": 135
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9492522478103638,
+            "word": "188943702",
+            "start": 16,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.590137779712677,
+            "word": "15th July 2020",
+            "start": 34,
+            "end": 48
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.622612714767456,
+            "word": "pancreatic cancer",
+            "start": 56,
+            "end": 73
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9104048609733582,
+            "word": "75",
+            "start": 88,
+            "end": 90
+        }
+    ]
+]

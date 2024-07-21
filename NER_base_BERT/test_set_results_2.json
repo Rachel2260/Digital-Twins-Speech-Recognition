@@ -1,0 +1,2965 @@
+[
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9984037280082703,
+            "word": "730932473",
+            "start": 6,
+            "end": 15
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998883068561554,
+            "word": "611066972",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982748031616211,
+            "word": "08 / 09 / 2014",
+            "start": 52,
+            "end": 62
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9950590133666992,
+            "word": "58",
+            "start": 66,
+            "end": 68
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9981292486190796,
+            "word": "other specified traumatic haemorrhage in brain tissue",
+            "start": 86,
+            "end": 139
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988465905189514,
+            "word": "558836951",
+            "start": 36,
+            "end": 45
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.99824458360672,
+            "word": "11 / 03 / 2014",
+            "start": 54,
+            "end": 64
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951772689819336,
+            "word": "46",
+            "start": 79,
+            "end": 81
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9982888698577881,
+            "word": "lichen planus and lichenoid reactions of oral mucosa",
+            "start": 102,
+            "end": 154
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988499879837036,
+            "word": "851171286",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9979327321052551,
+            "word": "05 / 04 / 2023",
+            "start": 51,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9982167482376099,
+            "word": "adrenogenital disorders, unspecified",
+            "start": 91,
+            "end": 128
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9940647482872009,
+            "word": "9",
+            "start": 145,
+            "end": 146
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988669157028198,
+            "word": "861111820",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971750378608704,
+            "word": "02 Aug 2000",
+            "start": 51,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9972277283668518,
+            "word": "gastrointestinal bleeding",
+            "start": 92,
+            "end": 117
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.99565190076828,
+            "word": "54",
+            "start": 134,
+            "end": 136
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998611330986023,
+            "word": "22990873",
+            "start": 9,
+            "end": 17
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9979049563407898,
+            "word": "subarachnoid haemorrhage",
+            "start": 45,
+            "end": 69
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998849093914032,
+            "word": "914124947",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9962811470031738,
+            "word": "06 May 2018",
+            "start": 24,
+            "end": 35
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9952641725540161,
+            "word": "91",
+            "start": 50,
+            "end": 52
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9911847114562988,
+            "word": "problems of the prostate",
+            "start": 60,
+            "end": 84
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987183213233948,
+            "word": "859154169",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9967446327209473,
+            "word": "26 August 2006",
+            "start": 40,
+            "end": 54
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9944589138031006,
+            "word": "10",
+            "start": 69,
+            "end": 71
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9931157231330872,
+            "word": "certain disorders involving the immune system",
+            "start": 79,
+            "end": 124
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9733054637908936,
+            "word": "beriberi",
+            "start": 11,
+            "end": 19
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987027049064636,
+            "word": "265769722",
+            "start": 31,
+            "end": 40
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987226128578186,
+            "word": "147311639",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982455372810364,
+            "word": "08 / 26 / 2019",
+            "start": 40,
+            "end": 50
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9949920773506165,
+            "word": "92",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9983798265457153,
+            "word": "other specified malignant neoplasms of ampulla of vater",
+            "start": 75,
+            "end": 130
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988221526145935,
+            "word": "566886748",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.997306764125824,
+            "word": "21 Oct 2016",
+            "start": 51,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9986065030097961,
+            "word": "other specified malignant neoplasms of heart, mediastinum or non - mesothelioma of pleura",
+            "start": 92,
+            "end": 180
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951099753379822,
+            "word": "75",
+            "start": 197,
+            "end": 199
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986419677734375,
+            "word": "297046006",
+            "start": 15,
+            "end": 24
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.996229350566864,
+            "word": "11 December 2001",
+            "start": 37,
+            "end": 53
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987848401069641,
+            "word": "211978322",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9976738095283508,
+            "word": "6 / 17 / 2021",
+            "start": 40,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9945492148399353,
+            "word": "76",
+            "start": 64,
+            "end": 66
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9984452128410339,
+            "word": "calculus of gallbladder or cystic duct with other cholecystitis",
+            "start": 74,
+            "end": 137
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9975559711456299,
+            "word": "pediculosis of unspecified site or type",
+            "start": 11,
+            "end": 50
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987030029296875,
+            "word": "871687825",
+            "start": 62,
+            "end": 71
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987275004386902,
+            "word": "72826665",
+            "start": 6,
+            "end": 14
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9981639981269836,
+            "word": "11 / 10 / 2017",
+            "start": 23,
+            "end": 33
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946625828742981,
+            "word": "88",
+            "start": 48,
+            "end": 50
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9974474310874939,
+            "word": "unspecified malignant epithelial neoplasm of middle ear",
+            "start": 58,
+            "end": 113
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988841414451599,
+            "word": "665571454",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9964603781700134,
+            "word": "27 May 2017",
+            "start": 24,
+            "end": 35
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9943945407867432,
+            "word": "32",
+            "start": 50,
+            "end": 52
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9982522130012512,
+            "word": "refractory anaemia with ring sideroblasts associated with marked thrombocytosis",
+            "start": 60,
+            "end": 139
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9963610172271729,
+            "word": "02 March 2008",
+            "start": 3,
+            "end": 16
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9985923767089844,
+            "word": "201658250",
+            "start": 25,
+            "end": 34
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951329827308655,
+            "word": "43",
+            "start": 54,
+            "end": 56
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.99813312292099,
+            "word": "other specified dermatoses of female genitalia",
+            "start": 62,
+            "end": 108
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9961658716201782,
+            "word": "November 13, 2011",
+            "start": 3,
+            "end": 21
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9988325834274292,
+            "word": "453153531",
+            "start": 37,
+            "end": 46
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9947876930236816,
+            "word": "83",
+            "start": 55,
+            "end": 57
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9875094294548035,
+            "word": "complementary or traditional medicines associated with injury or harm in therapeutic use, complementary or traditional medicines, not elsewhere classified",
+            "start": 79,
+            "end": 235
+        }
+    ],
+    [
+        {
+            "entity_group": "Age",
+            "score": 0.9926397800445557,
+            "word": "12",
+            "start": 14,
+            "end": 16
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988481402397156,
+            "word": "459760392",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.997660756111145,
+            "word": "Oct 08, 2001",
+            "start": 51,
+            "end": 64
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9959514737129211,
+            "word": "burn of head and neck except face, full thickness burn",
+            "start": 94,
+            "end": 149
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951576590538025,
+            "word": "75",
+            "start": 166,
+            "end": 168
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988535046577454,
+            "word": "383097102",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9929337501525879,
+            "word": "2",
+            "start": 47,
+            "end": 48
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982818365097046,
+            "word": "11 / 10 / 2017",
+            "start": 52,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9986793398857117,
+            "word": "structural developmental anomalies of umbilical cord, unspecified",
+            "start": 83,
+            "end": 149
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988399744033813,
+            "word": "998599336",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9977142810821533,
+            "word": "4 / 7 / 2022",
+            "start": 34,
+            "end": 42
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946141839027405,
+            "word": "29",
+            "start": 57,
+            "end": 59
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9969242215156555,
+            "word": "choroidal degeneration",
+            "start": 71,
+            "end": 93
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9989151954650879,
+            "word": "571827672",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9974878430366516,
+            "word": "23 Oct 2013",
+            "start": 51,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9978218078613281,
+            "word": "focal myoclonus",
+            "start": 92,
+            "end": 107
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9943927526473999,
+            "word": "16",
+            "start": 124,
+            "end": 126
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988870620727539,
+            "word": "532270789",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9963124990463257,
+            "word": "March 26, 2016",
+            "start": 24,
+            "end": 39
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9948504567146301,
+            "word": "99",
+            "start": 54,
+            "end": 56
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9974266290664673,
+            "word": "immune thrombocytopenic purpura",
+            "start": 64,
+            "end": 95
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.995701014995575,
+            "word": "14 August 2001",
+            "start": 3,
+            "end": 17
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987697601318359,
+            "word": "424516731",
+            "start": 29,
+            "end": 38
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988294839859009,
+            "word": "244960929",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9957677125930786,
+            "word": "45",
+            "start": 38,
+            "end": 40
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971916675567627,
+            "word": "14 Jul 2002",
+            "start": 63,
+            "end": 74
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9908125996589661,
+            "word": "assault by being bitten by animal",
+            "start": 82,
+            "end": 115
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9956234097480774,
+            "word": "Mar 31 2007",
+            "start": 3,
+            "end": 14
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987393617630005,
+            "word": "291371360",
+            "start": 31,
+            "end": 40
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988536834716797,
+            "word": "157834288",
+            "start": 36,
+            "end": 45
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971522092819214,
+            "word": "May 10, 2001",
+            "start": 54,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9947456121444702,
+            "word": "69",
+            "start": 82,
+            "end": 84
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9401791095733643,
+            "word": "underweight in adults",
+            "start": 105,
+            "end": 126
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988674521446228,
+            "word": "939186409",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9968663454055786,
+            "word": "March 15, 2006",
+            "start": 34,
+            "end": 49
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946335554122925,
+            "word": "89",
+            "start": 64,
+            "end": 66
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9979504346847534,
+            "word": "corneal oedema, unspecified",
+            "start": 78,
+            "end": 106
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987933039665222,
+            "word": "532058600",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9981039762496948,
+            "word": "09 / 15 / 2017",
+            "start": 43,
+            "end": 53
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9941281080245972,
+            "word": "95",
+            "start": 74,
+            "end": 76
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9962080717086792,
+            "word": "May 28, 2016",
+            "start": 3,
+            "end": 16
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9984643459320068,
+            "word": "115402738",
+            "start": 25,
+            "end": 34
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9945995807647705,
+            "word": "34",
+            "start": 42,
+            "end": 44
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9985352754592896,
+            "word": "gonococcal genitourinary infection, unspecified",
+            "start": 59,
+            "end": 107
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986284971237183,
+            "word": "515525064",
+            "start": 17,
+            "end": 26
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9969860315322876,
+            "word": "2019 - 01 - 05",
+            "start": 39,
+            "end": 49
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988730549812317,
+            "word": "693959009",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9948022365570068,
+            "word": "95",
+            "start": 47,
+            "end": 49
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971000552177429,
+            "word": "December 30, 2000",
+            "start": 53,
+            "end": 71
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9968231320381165,
+            "word": "other peripheral vertigo",
+            "start": 92,
+            "end": 116
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988729357719421,
+            "word": "612704710",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9947645664215088,
+            "word": "95",
+            "start": 47,
+            "end": 49
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.997891902923584,
+            "word": "1 / 5 / 2020",
+            "start": 53,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9969431161880493,
+            "word": "low back pain, unspecified",
+            "start": 82,
+            "end": 109
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9965891242027283,
+            "word": "structural developmental anomalies of the circulatory system",
+            "start": 23,
+            "end": 83
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987242221832275,
+            "word": "145724095",
+            "start": 17,
+            "end": 26
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9911803603172302,
+            "word": "2004 Feb 18",
+            "start": 39,
+            "end": 50
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9963823556900024,
+            "word": "2014 / 01 / 02",
+            "start": 3,
+            "end": 13
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987131953239441,
+            "word": "273584007",
+            "start": 25,
+            "end": 34
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988284111022949,
+            "word": "37769717",
+            "start": 6,
+            "end": 14
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9939892292022705,
+            "word": "26",
+            "start": 34,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.99823397397995,
+            "word": "08 / 27 / 2012",
+            "start": 40,
+            "end": 50
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.994154155254364,
+            "word": "fracture of other finger bone",
+            "start": 58,
+            "end": 87
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988438487052917,
+            "word": "912494845",
+            "start": 36,
+            "end": 45
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982314109802246,
+            "word": "10 / 25 / 2000",
+            "start": 54,
+            "end": 64
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9949902892112732,
+            "word": "81",
+            "start": 79,
+            "end": 81
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9986317753791809,
+            "word": "squamous cell carcinoma in situ of skin of penis",
+            "start": 102,
+            "end": 150
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987342953681946,
+            "word": "329984865",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971038699150085,
+            "word": "09 October 2007",
+            "start": 54,
+            "end": 69
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9949694275856018,
+            "word": "75",
+            "start": 75,
+            "end": 77
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9988399744033813,
+            "word": "malignant neoplasms of urinary tract, unspecified",
+            "start": 101,
+            "end": 151
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988507628440857,
+            "word": "557572352",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.994491696357727,
+            "word": "46",
+            "start": 58,
+            "end": 60
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9973476529121399,
+            "word": "February 03, 2021",
+            "start": 64,
+            "end": 82
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9976974725723267,
+            "word": "cytomegaloviral hepatitis",
+            "start": 94,
+            "end": 119
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998498260974884,
+            "word": "385635295",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9908761382102966,
+            "word": "27",
+            "start": 19,
+            "end": 21
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988225698471069,
+            "word": "384512580",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9969887733459473,
+            "word": "23 Sep 2004",
+            "start": 46,
+            "end": 57
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9950110912322998,
+            "word": "65",
+            "start": 72,
+            "end": 74
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9973019361495972,
+            "word": "voice disturbances, unspecified",
+            "start": 82,
+            "end": 114
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988091588020325,
+            "word": "286025526",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9974699020385742,
+            "word": "October 30, 2020",
+            "start": 40,
+            "end": 57
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9950398802757263,
+            "word": "38",
+            "start": 72,
+            "end": 74
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9872725605964661,
+            "word": "hi",
+            "start": 82,
+            "end": 84
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9586887359619141,
+            "word": "##v disease clinical stage 4 without mention of tuberculosis or malaria",
+            "start": 84,
+            "end": 153
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988893866539001,
+            "word": "871720999",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9934026598930359,
+            "word": "4",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9975032806396484,
+            "word": "August 22, 2019",
+            "start": 48,
+            "end": 64
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9972679018974304,
+            "word": "failed or difficult intubation during labour or delivery",
+            "start": 72,
+            "end": 128
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987278580665588,
+            "word": "497326963",
+            "start": 9,
+            "end": 18
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987980723381042,
+            "word": "855043518",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9953913688659668,
+            "word": "52",
+            "start": 23,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9966334700584412,
+            "word": "July 24, 2006",
+            "start": 36,
+            "end": 50
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9842779040336609,
+            "word": "drop attack",
+            "start": 62,
+            "end": 73
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987747073173523,
+            "word": "484950235",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9953768253326416,
+            "word": "38",
+            "start": 49,
+            "end": 51
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9969229698181152,
+            "word": "01 August 2009",
+            "start": 67,
+            "end": 81
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9985419511795044,
+            "word": "intrahepatic cholestasis, not elsewhere classified, unspecified",
+            "start": 86,
+            "end": 151
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988200068473816,
+            "word": "957611020",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9972900152206421,
+            "word": "February 15, 2021",
+            "start": 51,
+            "end": 69
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9988330006599426,
+            "word": "malignant neoplasm involving overlapping sites of urinary organs, unspecified",
+            "start": 99,
+            "end": 177
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946631193161011,
+            "word": "88",
+            "start": 194,
+            "end": 196
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986737966537476,
+            "word": "441937347",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9898382425308228,
+            "word": "mitochondrial protein import disorders",
+            "start": 49,
+            "end": 87
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9960315823554993,
+            "word": "04 January 2021",
+            "start": 107,
+            "end": 122
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.995303750038147,
+            "word": "40",
+            "start": 139,
+            "end": 141
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987760782241821,
+            "word": "407019919",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.991415798664093,
+            "word": "1",
+            "start": 49,
+            "end": 50
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9957240223884583,
+            "word": "13 April 2008",
+            "start": 66,
+            "end": 79
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9986181259155273,
+            "word": "malignant hyperthermia due to anaesthesia",
+            "start": 84,
+            "end": 125
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988759756088257,
+            "word": "942256523",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9983320236206055,
+            "word": "09 / 27 / 2009",
+            "start": 51,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.995701014995575,
+            "word": "current depressive episode persistent",
+            "start": 91,
+            "end": 128
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9947143197059631,
+            "word": "34",
+            "start": 145,
+            "end": 147
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987403750419617,
+            "word": "978391266",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982680082321167,
+            "word": "10 / 22 / 2001",
+            "start": 52,
+            "end": 62
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.991366446018219,
+            "word": "100",
+            "start": 66,
+            "end": 69
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.998480498790741,
+            "word": "palmoplantar keratoderma, unspecifie",
+            "start": 87,
+            "end": 124
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9985162019729614,
+            "word": "175026469",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9969416260719299,
+            "word": "18 Dec 2000",
+            "start": 34,
+            "end": 45
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9942732453346252,
+            "word": "24",
+            "start": 60,
+            "end": 62
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9969618320465088,
+            "word": "autonomic disorder due to toxins",
+            "start": 74,
+            "end": 106
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9984316825866699,
+            "word": "175252016",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.998187243938446,
+            "word": "08 / 03 / 2019",
+            "start": 24,
+            "end": 34
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9935092329978943,
+            "word": "7",
+            "start": 49,
+            "end": 50
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.997696578502655,
+            "word": "ossification of spinal ligaments",
+            "start": 58,
+            "end": 90
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988558292388916,
+            "word": "91998929",
+            "start": 27,
+            "end": 35
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9977604746818542,
+            "word": "Apr 22, 2006",
+            "start": 51,
+            "end": 64
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951425790786743,
+            "word": "47",
+            "start": 68,
+            "end": 70
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9979321360588074,
+            "word": "fracture of unspecified tarsal bone",
+            "start": 88,
+            "end": 123
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9982841610908508,
+            "word": "31697294",
+            "start": 9,
+            "end": 17
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9927338361740112,
+            "word": "2011 - 01 - 03",
+            "start": 25,
+            "end": 35
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988491535186768,
+            "word": "794970819",
+            "start": 36,
+            "end": 45
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9973101019859314,
+            "word": "Mar 29, 2009",
+            "start": 54,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9943979382514954,
+            "word": "85",
+            "start": 82,
+            "end": 84
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.996694028377533,
+            "word": "deletions of chromosome 19",
+            "start": 105,
+            "end": 131
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988581538200378,
+            "word": "676281731",
+            "start": 33,
+            "end": 42
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9976938962936401,
+            "word": "Apr 02, 2003",
+            "start": 51,
+            "end": 64
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9935476183891296,
+            "word": "spontaneous vertex delivery",
+            "start": 94,
+            "end": 121
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9958154559135437,
+            "word": "53",
+            "start": 138,
+            "end": 140
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9974215626716614,
+            "word": "other specified injury of muscle, fascia or tendon of other parts of biceps",
+            "start": 22,
+            "end": 98
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986590147018433,
+            "word": "476113119",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9932807087898254,
+            "word": "100",
+            "start": 19,
+            "end": 22
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9965372085571289,
+            "word": "other specified nutritional or toxic disorders of the nervous system",
+            "start": 7,
+            "end": 75
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.998587965965271,
+            "word": "132065623",
+            "start": 87,
+            "end": 96
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988521933555603,
+            "word": "440058530",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9923874139785767,
+            "word": "3",
+            "start": 23,
+            "end": 24
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9973468780517578,
+            "word": "May 22, 2003",
+            "start": 48,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9960156083106995,
+            "word": "labour or delivery complicated by cord around neck, with compression",
+            "start": 69,
+            "end": 138
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988086223602295,
+            "word": "672558688",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9945337772369385,
+            "word": "86",
+            "start": 37,
+            "end": 39
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9984654188156128,
+            "word": "88008662",
+            "start": 17,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9961254596710205,
+            "word": "February 14 2003",
+            "start": 38,
+            "end": 54
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988477826118469,
+            "word": "335068378",
+            "start": 28,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9979103803634644,
+            "word": "3 / 17 / 2012",
+            "start": 42,
+            "end": 51
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9978862404823303,
+            "word": "other specified intervertebral disc stenosis of neural canal",
+            "start": 81,
+            "end": 141
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9928672313690186,
+            "word": "26",
+            "start": 158,
+            "end": 160
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9951933026313782,
+            "word": "acquired clawfoot or clubfoot",
+            "start": 7,
+            "end": 36
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9988287091255188,
+            "word": "792566489",
+            "start": 48,
+            "end": 57
+        }
+    ],
+    [
+        {
+            "entity_group": "Age",
+            "score": 0.9912149906158447,
+            "word": "4",
+            "start": 19,
+            "end": 20
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9970316290855408,
+            "word": "18 Aug 2012",
+            "start": 3,
+            "end": 14
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9988530874252319,
+            "word": "574379075",
+            "start": 23,
+            "end": 32
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9942666888237,
+            "word": "24",
+            "start": 52,
+            "end": 54
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9977197647094727,
+            "word": "extraosseous plasmacytoma",
+            "start": 60,
+            "end": 85
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998724102973938,
+            "word": "155535354",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951369166374207,
+            "word": "69",
+            "start": 23,
+            "end": 25
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9970886707305908,
+            "word": "02 September 2014",
+            "start": 49,
+            "end": 66
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9976215362548828,
+            "word": "radiation oesophagitis",
+            "start": 74,
+            "end": 96
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987543225288391,
+            "word": "376590319",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9936271905899048,
+            "word": "36",
+            "start": 26,
+            "end": 28
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986717104911804,
+            "word": "874072627",
+            "start": 13,
+            "end": 22
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9932811260223389,
+            "word": "97",
+            "start": 41,
+            "end": 43
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988275766372681,
+            "word": "155414172",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9983104467391968,
+            "word": "03 / 16 / 2011",
+            "start": 54,
+            "end": 64
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9923111200332642,
+            "word": "100",
+            "start": 70,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.990570604801178,
+            "word": "vaginitis",
+            "start": 97,
+            "end": 106
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988344311714172,
+            "word": "324372329",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9966815710067749,
+            "word": "May 12, 2010",
+            "start": 24,
+            "end": 37
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9912404417991638,
+            "word": "13",
+            "start": 52,
+            "end": 54
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9979050755500793,
+            "word": "contusion of lower back or pelvis",
+            "start": 62,
+            "end": 95
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988327622413635,
+            "word": "646285097",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9948167204856873,
+            "word": "29",
+            "start": 38,
+            "end": 40
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982309341430664,
+            "word": "03 / 20 / 2004",
+            "start": 63,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9978919625282288,
+            "word": "other specified structural developmental anomalies of the posterior segment of eye",
+            "start": 81,
+            "end": 163
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998742938041687,
+            "word": "323920460",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9954493641853333,
+            "word": "2004 Sep 06",
+            "start": 43,
+            "end": 54
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9950050711631775,
+            "word": "82",
+            "start": 75,
+            "end": 77
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9962867498397827,
+            "word": "2000 / 10 / 11",
+            "start": 22,
+            "end": 32
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9953392744064331,
+            "word": "41",
+            "start": 49,
+            "end": 51
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9980193376541138,
+            "word": "injury of muscle, fascia or tendon of triceps",
+            "start": 91,
+            "end": 137
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988469481468201,
+            "word": "148574462",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.994688868522644,
+            "word": "79",
+            "start": 35,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9969940781593323,
+            "word": "03 Apr 2000",
+            "start": 41,
+            "end": 52
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9972230792045593,
+            "word": "other specified disorders of hair",
+            "start": 60,
+            "end": 93
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9975273013114929,
+            "word": "other specified acquired abnormality of neoaortic valve of pulmonary origin",
+            "start": 11,
+            "end": 86
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987554550170898,
+            "word": "431363973",
+            "start": 98,
+            "end": 107
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988352656364441,
+            "word": "555373839",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9933069348335266,
+            "word": "16",
+            "start": 35,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9973741769790649,
+            "word": "Jan 03, 2011",
+            "start": 41,
+            "end": 54
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9976179003715515,
+            "word": "mycetoma of unknown or unspecified type",
+            "start": 62,
+            "end": 101
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9989226460456848,
+            "word": "623293981",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982093572616577,
+            "word": "08 / 03 / 2015",
+            "start": 34,
+            "end": 44
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.994864284992218,
+            "word": "82",
+            "start": 59,
+            "end": 61
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9983592629432678,
+            "word": "avulsion of tibial tuberosity",
+            "start": 73,
+            "end": 102
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9886557459831238,
+            "word": "2009 Jul 10",
+            "start": 8,
+            "end": 19
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9986734390258789,
+            "word": "243060494",
+            "start": 25,
+            "end": 34
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9980891346931458,
+            "word": "traumatic amputation of breast, unspecified",
+            "start": 43,
+            "end": 87
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9635436534881592,
+            "word": "2010 May 29",
+            "start": 14,
+            "end": 25
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.993244469165802,
+            "word": "25",
+            "start": 34,
+            "end": 36
+        }
+    ],
+    [
+        {
+            "entity_group": "Age",
+            "score": 0.9908220767974854,
+            "word": "3",
+            "start": 19,
+            "end": 20
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988049864768982,
+            "word": "362830859",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.991921067237854,
+            "word": "2",
+            "start": 49,
+            "end": 50
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9966630339622498,
+            "word": "04 April 2023",
+            "start": 66,
+            "end": 79
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9980536103248596,
+            "word": "major histocompatibility complex class ii deficiency",
+            "start": 84,
+            "end": 136
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987470507621765,
+            "word": "151160927",
+            "start": 14,
+            "end": 23
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9966436624526978,
+            "word": "2001 - 04 - 02",
+            "start": 32,
+            "end": 42
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988636374473572,
+            "word": "687908439",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9981701970100403,
+            "word": "07 / 08 / 2018",
+            "start": 24,
+            "end": 34
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9931355714797974,
+            "word": "20",
+            "start": 49,
+            "end": 51
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9970391988754272,
+            "word": "bacterial pneumonia, unspecified",
+            "start": 59,
+            "end": 92
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988131523132324,
+            "word": "722745183",
+            "start": 14,
+            "end": 23
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9976916313171387,
+            "word": "other specified congenital deformities of toes",
+            "start": 43,
+            "end": 89
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988338351249695,
+            "word": "254673241",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9972741603851318,
+            "word": "31 Jan 2020",
+            "start": 52,
+            "end": 63
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9904542565345764,
+            "word": "4",
+            "start": 67,
+            "end": 68
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9983065724372864,
+            "word": "benign non - mesenchymal neoplasms of unspecified site",
+            "start": 86,
+            "end": 138
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9989076256752014,
+            "word": "943036769",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9936630725860596,
+            "word": "19",
+            "start": 47,
+            "end": 49
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9966669082641602,
+            "word": "07 Oct 2022",
+            "start": 53,
+            "end": 64
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.997612714767456,
+            "word": "chronic visceral pain from mechanical factors",
+            "start": 85,
+            "end": 130
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988312721252441,
+            "word": "928103548",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9970124363899231,
+            "word": "20 November 2001",
+            "start": 52,
+            "end": 68
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946292042732239,
+            "word": "35",
+            "start": 72,
+            "end": 74
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9958271384239197,
+            "word": "abnormal level of enzymes in specimens from other organs, systems and tissues",
+            "start": 92,
+            "end": 170
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988433718681335,
+            "word": "670609332",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9982272386550903,
+            "word": "9 / 17 / 2010",
+            "start": 52,
+            "end": 61
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9950428009033203,
+            "word": "83",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9974672198295593,
+            "word": "disorders of lacrimal gland",
+            "start": 85,
+            "end": 112
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9963697195053101,
+            "word": "other specified herpes simplex infection of the eye",
+            "start": 11,
+            "end": 62
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987024068832397,
+            "word": "221940246",
+            "start": 74,
+            "end": 83
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988550543785095,
+            "word": "381667412",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9915664792060852,
+            "word": "symptoms or signs involving elimination",
+            "start": 46,
+            "end": 85
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987471699714661,
+            "word": "804910832",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9947876930236816,
+            "word": "10",
+            "start": 47,
+            "end": 49
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9972432255744934,
+            "word": "Nov 30, 2009",
+            "start": 53,
+            "end": 66
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.998511552810669,
+            "word": "dislocation of patella, unspecified",
+            "start": 87,
+            "end": 123
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988502860069275,
+            "word": "340728766",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9965419173240662,
+            "word": "26 August 2011",
+            "start": 24,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9954404830932617,
+            "word": "50",
+            "start": 53,
+            "end": 55
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9975764155387878,
+            "word": "torsional nystagmus",
+            "start": 63,
+            "end": 82
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988214373588562,
+            "word": "79548066",
+            "start": 29,
+            "end": 37
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9942189455032349,
+            "word": "89",
+            "start": 57,
+            "end": 59
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.99639892578125,
+            "word": "12 July 2014",
+            "start": 63,
+            "end": 75
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9985026717185974,
+            "word": "contusion of other or unspecified sites of head",
+            "start": 87,
+            "end": 134
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9986278414726257,
+            "word": "70030106",
+            "start": 22,
+            "end": 30
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9962830543518066,
+            "word": "10 April 2017",
+            "start": 39,
+            "end": 52
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9952276945114136,
+            "word": "46",
+            "start": 67,
+            "end": 69
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9981776475906372,
+            "word": "staphylococcus aureus superficial folliculitis",
+            "start": 77,
+            "end": 123
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987727403640747,
+            "word": "304112454",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9948394894599915,
+            "word": "34",
+            "start": 35,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9979647397994995,
+            "word": "3 / 8 / 2005",
+            "start": 41,
+            "end": 49
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9977032542228699,
+            "word": "endometrial endometrioid adenocarcinoma",
+            "start": 57,
+            "end": 96
+        }
+    ],
+    [
+        {
+            "entity_group": "Age",
+            "score": 0.9909703731536865,
+            "word": "18",
+            "start": 14,
+            "end": 16
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988210201263428,
+            "word": "88956718",
+            "start": 6,
+            "end": 14
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971531629562378,
+            "word": "December 04, 2021",
+            "start": 23,
+            "end": 41
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9949140548706055,
+            "word": "42",
+            "start": 56,
+            "end": 58
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9967770576477051,
+            "word": "congenital hypotonia",
+            "start": 66,
+            "end": 86
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9957143664360046,
+            "word": "25 July 2011",
+            "start": 11,
+            "end": 23
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987789988517761,
+            "word": "602478649",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9910919070243835,
+            "word": "18",
+            "start": 45,
+            "end": 47
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987374544143677,
+            "word": "986448867",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9945407509803772,
+            "word": "31",
+            "start": 49,
+            "end": 51
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9980536699295044,
+            "word": "5 / 8 / 2010",
+            "start": 67,
+            "end": 75
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9947747588157654,
+            "word": "symptoms, signs or clinical findings involving the female genital system",
+            "start": 80,
+            "end": 153
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9943640232086182,
+            "word": "endocrine procedure associated with injury or harm in therapeutic use, unspecified approach",
+            "start": 29,
+            "end": 121
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987058639526367,
+            "word": "510349343",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9927870631217957,
+            "word": "27",
+            "start": 37,
+            "end": 39
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988524317741394,
+            "word": "595570026",
+            "start": 28,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9970731735229492,
+            "word": "May 01, 2015",
+            "start": 42,
+            "end": 55
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9961244463920593,
+            "word": "abrasion of teeth",
+            "start": 85,
+            "end": 102
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9885658621788025,
+            "word": "18",
+            "start": 119,
+            "end": 121
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988469481468201,
+            "word": "751468194",
+            "start": 28,
+            "end": 37
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9964367747306824,
+            "word": "March 16, 2017",
+            "start": 42,
+            "end": 57
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9678393602371216,
+            "word": "mpox",
+            "start": 87,
+            "end": 91
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9941715598106384,
+            "word": "66",
+            "start": 108,
+            "end": 110
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988043904304504,
+            "word": "339946092",
+            "start": 9,
+            "end": 18
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9975438117980957,
+            "word": "January 02, 2013",
+            "start": 34,
+            "end": 51
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951761960983276,
+            "word": "43",
+            "start": 66,
+            "end": 68
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9982157945632935,
+            "word": "osteoarthritis of knee, unspecified",
+            "start": 80,
+            "end": 116
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.9980230331420898,
+            "word": "9 / 10 / 2008",
+            "start": 3,
+            "end": 12
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9988152384757996,
+            "word": "718466008",
+            "start": 21,
+            "end": 30
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9956557750701904,
+            "word": "53",
+            "start": 50,
+            "end": 52
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.99785315990448,
+            "word": "female pelvic pain, unspecified",
+            "start": 58,
+            "end": 90
+        }
+    ],
+    [
+        {
+            "entity_group": "DoD",
+            "score": 0.995884120464325,
+            "word": "December 31 2005",
+            "start": 3,
+            "end": 19
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.9987192153930664,
+            "word": "862307254",
+            "start": 36,
+            "end": 45
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988276362419128,
+            "word": "760378568",
+            "start": 22,
+            "end": 31
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9974260330200195,
+            "word": "April 29, 2017",
+            "start": 40,
+            "end": 55
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9942464232444763,
+            "word": "26",
+            "start": 70,
+            "end": 72
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.997974693775177,
+            "word": "demyelination due to sarcoidosis",
+            "start": 80,
+            "end": 112
+        }
+    ],
+    [
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9975147247314453,
+            "word": "hypertrophic gastritis of unknown aetiology",
+            "start": 7,
+            "end": 50
+        },
+        {
+            "entity_group": "ID",
+            "score": 0.998160183429718,
+            "word": "191551870",
+            "start": 67,
+            "end": 76
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.998901903629303,
+            "word": "565586693",
+            "start": 27,
+            "end": 36
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9960925579071045,
+            "word": "27th March 2009",
+            "start": 52,
+            "end": 67
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9946621060371399,
+            "word": "26",
+            "start": 71,
+            "end": 73
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9892733693122864,
+            "word": "effects of",
+            "start": 91,
+            "end": 101
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9782688021659851,
+            "word": "heat, unspecified",
+            "start": 102,
+            "end": 120
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987580180168152,
+            "word": "376857248",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9954826831817627,
+            "word": "68",
+            "start": 38,
+            "end": 40
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9971633553504944,
+            "word": "December 05, 2016",
+            "start": 63,
+            "end": 81
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9948529005050659,
+            "word": "diabetic charcot arthropathy",
+            "start": 89,
+            "end": 117
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988037347793579,
+            "word": "65465586",
+            "start": 27,
+            "end": 35
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9981263279914856,
+            "word": "12 / 26 / 2010",
+            "start": 51,
+            "end": 61
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951125979423523,
+            "word": "68",
+            "start": 65,
+            "end": 67
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9914894104003906,
+            "word": "early syphilis",
+            "start": 85,
+            "end": 99
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9987883567810059,
+            "word": "308127880",
+            "start": 18,
+            "end": 27
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9951692223548889,
+            "word": "35",
+            "start": 38,
+            "end": 40
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.9965066313743591,
+            "word": "17 February 2022",
+            "start": 63,
+            "end": 79
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9983418583869934,
+            "word": "injury of intrinsic muscle, fascia or tendon of other finger at wrist or hand level, unspecified",
+            "start": 87,
+            "end": 185
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988426566123962,
+            "word": "282667449",
+            "start": 6,
+            "end": 15
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.997814953327179,
+            "word": "2 / 20 / 2023",
+            "start": 24,
+            "end": 33
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9943523406982422,
+            "word": "88",
+            "start": 48,
+            "end": 50
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.9968557357788086,
+            "word": "substances associated with injury or harm in therapeutic use, unspecified",
+            "start": 58,
+            "end": 132
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9988515973091125,
+            "word": "751736724",
+            "start": 29,
+            "end": 38
+        },
+        {
+            "entity_group": "Age",
+            "score": 0.9948274493217468,
+            "word": "44",
+            "start": 58,
+            "end": 60
+        },
+        {
+            "entity_group": "DoD",
+            "score": 0.996957004070282,
+            "word": "11 Aug 2010",
+            "start": 64,
+            "end": 75
+        },
+        {
+            "entity_group": "Cause_of_Death",
+            "score": 0.998399555683136,
+            "word": "coarctation of aorta",
+            "start": 87,
+            "end": 107
+        }
+    ],
+    [
+        {
+            "entity_group": "ID",
+            "score": 0.9977104663848877,
+            "word": "60093953",
+            "start": 6,
+            "end": 14
+        }
+    ]
+]
