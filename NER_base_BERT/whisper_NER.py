@@ -26,7 +26,7 @@ def main():
 
     transcription = ['']
 
-    model_path = "./final_model_test"
+    model_path = "./final_model"
     device = 0 if torch.cuda.is_available() else -1
     ner_pipe = pipeline("token-classification", model=model_path, aggregation_strategy='simple', device=device)
 

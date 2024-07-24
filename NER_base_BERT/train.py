@@ -154,5 +154,5 @@ results = trainer.evaluate()
 print(results)
 
 # save the last model
-trainer.save_model("./final_model_test")
-tokenizer.save_pretrained("./final_model_test")
+trainer.save_model("./final_model")
+tokenizer.save_pretrained("./final_model")
