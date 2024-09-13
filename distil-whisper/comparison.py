@@ -4,12 +4,12 @@ import torchaudio
 import psutil
 import noisereduce as nr
 from transformers import WhisperProcessor, WhisperForConditionalGeneration, AutoProcessor, AutoModelForSpeechSeq2Seq
-from jiwer import cer
+from jiwer import wer
 import os
 import numpy as np
 
 # Define device and model parameters
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 
 # Load Whisper and Distil-Whisper models
@@ -22,11 +22,6 @@ whisper_model = WhisperForConditionalGeneration.from_pretrained(whisper_model_id
 distil_processor = AutoProcessor.from_pretrained(distil_model_id)
 distil_model = AutoModelForSpeechSeq2Seq.from_pretrained(distil_model_id).to(device)
 
-# Function to measure GPU memory usage
-def get_gpu_memory_usage():
-    if torch.cuda.is_available():
-        return torch.cuda.memory_allocated() / (1024 ** 2)  # Convert to MB
-    return 0
 
 # Function to measure CPU usage
 def get_cpu_usage():
@@ -81,10 +76,9 @@ def transcribe_and_measure(model, processor, audio_data, device, torch_dtype, n_
         median_time = np.median(timers)
 
         # Measure GPU and CPU usage (just once)
-        gpu_memory_used = get_gpu_memory_usage()
         cpu_usage = get_cpu_usage()
 
-        return transcription, median_time, gpu_memory_used, cpu_usage
+        return transcription, median_time, cpu_usage
     else:
         raise ValueError("Error: 'input_features' not found in inputs")
 
@@ -94,24 +88,24 @@ def compare_models(whisper_model, distil_model, whisper_processor, distil_proces
 
     # Transcribe using Whisper (run multiple times and calculate median inference time)
     print("Testing Whisper Model:")
-    whisper_transcription, whisper_time, whisper_gpu, whisper_cpu = transcribe_and_measure(
+    whisper_transcription, whisper_time, whisper_cpu = transcribe_and_measure(
         whisper_model, whisper_processor, audio_data, device, torch_dtype, n_runs
     )
-    whisper_cer = cer(true_transcription, whisper_transcription)
+    whisper_wer = wer(true_transcription, whisper_transcription)
     print(f"Whisper Transcription: {whisper_transcription}")
-    print(f"Whisper CER: {whisper_cer:.4f}, Median Time: {whisper_time:.2f}s, GPU Memory: {whisper_gpu:.2f}MB, CPU Usage: {whisper_cpu:.2f}%\n")
+    print(f"Whisper WER: {whisper_wer:.4f}, Median Time: {whisper_time:.2f}s, CPU Usage: {whisper_cpu:.2f}%\n")
 
     # Transcribe using Distil-Whisper (run multiple times and calculate median inference time)
     print("Testing Distil-Whisper Model:")
-    distil_transcription, distil_time, distil_gpu, distil_cpu = transcribe_and_measure(
+    distil_transcription, distil_time, distil_cpu = transcribe_and_measure(
         distil_model, distil_processor, audio_data, device, torch_dtype, n_runs
     )
-    distil_cer = cer(true_transcription, distil_transcription)
+    distil_wer = wer(true_transcription, distil_transcription)
     print(f"Distil-Whisper Transcription: {distil_transcription}")
-    print(f"Distil-Whisper CER: {distil_cer:.4f}, Median Time: {distil_time:.2f}s, GPU Memory: {distil_gpu:.2f}MB, CPU Usage: {distil_cpu:.2f}%\n")
+    print(f"Distil-Whisper WER: {distil_wer:.4f}, Median Time: {distil_time:.2f}s, CPU Usage: {distil_cpu:.2f}%\n")
 
-    # Compare CER
-    print(f"Character Error Rate (CER) Comparison: Whisper vs Distil-Whisper = {whisper_cer:.4f} vs {distil_cer:.4f}")
+    # Compare wer
+    print(f"Character Error Rate (wer) Comparison: Whisper vs Distil-Whisper = {whisper_wer:.4f} vs {distil_wer:.4f}")
 
 # Load a sample from LibriSpeech dataset using torchaudio
 def load_librispeech_sample():
