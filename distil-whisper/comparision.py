@@ -6,6 +6,7 @@ import noisereduce as nr
 from transformers import WhisperProcessor, WhisperForConditionalGeneration, AutoProcessor, AutoModelForSpeechSeq2Seq
 from jiwer import cer
 import os
+import numpy as np
 
 # Define device and model parameters
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -31,37 +32,60 @@ def get_gpu_memory_usage():
 def get_cpu_usage():
     return psutil.cpu_percent(interval=None)
 
-# Function to perform transcription and measure performance
+# Function to pad mel features and create attention mask
+def pad_mel_features(mel_features, target_length=3000):
+    """Pad mel features to the target length with -1.0 and create an attention mask."""
+    pad_width = target_length - mel_features.shape[-1]
+    attention_mask = np.ones(mel_features.shape[-1])
+    
+    if pad_width > 0:
+        # Padding with -1.0 as required by Whisper model
+        mel_features = np.pad(mel_features, ((0, 0), (0, pad_width)), mode='constant', constant_values=-1.0)
+        # Padding the attention mask with 0 for the padded regions
+        attention_mask = np.pad(attention_mask, (0, pad_width), mode='constant', constant_values=0)
+        
+    return mel_features, attention_mask
+
+# Modify transcribe_and_measure function to include padding
 def transcribe_and_measure(model, processor, audio_data, device, torch_dtype):
     # Noise reduction
     reduced_noise_audio = nr.reduce_noise(y=audio_data, sr=16000)
-    
-    # Process the audio block
+
+    # Process the audio block to get input features
     inputs = processor(reduced_noise_audio, sampling_rate=16000, return_tensors="pt", padding=True)
-    
-    input_features = inputs['input_features'].to(device)
-    
-    # Measure start time and memory usage
-    start_time = time.time()
-    start_gpu_memory = get_gpu_memory_usage()
-    start_cpu_usage = get_cpu_usage()
 
-    # Generate transcription
-    with torch.no_grad():
-        generated_ids = model.generate(input_features)
-    transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+    if 'input_features' in inputs:
+        # Extract the input features and squeeze to remove extra dimensions
+        input_features = inputs['input_features'].squeeze().cpu().numpy()
 
-    # Measure end time and memory usage
-    end_time = time.time()
-    end_gpu_memory = get_gpu_memory_usage()
-    end_cpu_usage = get_cpu_usage()
+        # Pad the input features to the required length and create attention mask
+        input_features, attention_mask = pad_mel_features(input_features)
+        input_features = torch.tensor(input_features).unsqueeze(0).to(device, dtype=torch_dtype)
+        attention_mask = torch.tensor(attention_mask).unsqueeze(0).to(device, dtype=torch_dtype)
 
-    # Calculate time, GPU, and CPU usage
-    total_time = end_time - start_time
-    gpu_memory_used = end_gpu_memory - start_gpu_memory
-    cpu_usage = end_cpu_usage - start_cpu_usage
+        # Measure start time and memory usage
+        start_time = time.time()
+        start_gpu_memory = get_gpu_memory_usage()
+        start_cpu_usage = get_cpu_usage()
 
-    return transcription, total_time, gpu_memory_used, cpu_usage
+        # Generate transcription with attention mask
+        with torch.no_grad():
+            generated_ids = model.generate(input_features, attention_mask=attention_mask, max_new_tokens=128)
+        transcription = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        # Measure end time and memory usage
+        end_time = time.time()
+        end_gpu_memory = get_gpu_memory_usage()
+        end_cpu_usage = get_cpu_usage()
+
+        # Calculate time, GPU, and CPU usage
+        total_time = end_time - start_time
+        gpu_memory_used = end_gpu_memory - start_gpu_memory
+        cpu_usage = end_cpu_usage - start_cpu_usage
+
+        return transcription, total_time, gpu_memory_used, cpu_usage
+    else:
+        raise ValueError("Error: 'input_features' not found in inputs")
 
 # Compare both models
 def compare_models(whisper_model, distil_model, whisper_processor, distil_processor, audio_data, true_transcription):
