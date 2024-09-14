@@ -4,11 +4,13 @@ from datasets import Dataset
 from transformers import BertTokenizerFast, BertForTokenClassification, Trainer, TrainingArguments
 from seqeval.metrics import classification_report, f1_score
 import torch
+import os
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 def read_conll_data(file_path):
+    file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), file_path))
     sentences = []
     labels = []
     with open(file_path, 'r') as f:
