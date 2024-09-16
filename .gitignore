@@ -3,10 +3,7 @@ env/
 .tmp
 .log
 .huggingface
-NER_base_BERT/final_model/
-NER_base_BERT/final_model_test/
-NER_base_BERT/results/
-distil-whisper/model
+final_model
+results
+model
 distil-whisper/data
-test/final_model
-test/results
