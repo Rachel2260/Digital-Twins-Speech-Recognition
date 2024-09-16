@@ -107,7 +107,7 @@ def generate_varied_sentences_batch_enhanced(num_sentences, icd_data):
     return varied_sentences
 
 # Load the ICD data from the provided Excel file
-icd_df = pd.read_excel('SimpleTabulation-ICD-11-MMS-en.xlsx')
+icd_df = pd.read_excel('./data/SimpleTabulation-ICD-11-MMS-en.xlsx')
 
 # Generate 1000 sentences in batches
 enhanced_varied_sentences = []
@@ -122,7 +122,7 @@ for _ in range(num_batches):
 enhanced_varied_sentences_df = pd.DataFrame(enhanced_varied_sentences, columns=["Sentence"])
 
 # Save to CSV
-csv_file_path = 'varied_donor_sentences_1-3.csv'
+csv_file_path = './data/varied_donor_sentences_1-3.csv'
 enhanced_varied_sentences_df.to_csv(csv_file_path, index=False)
 
 print(f"CSV file saved at: {csv_file_path}")

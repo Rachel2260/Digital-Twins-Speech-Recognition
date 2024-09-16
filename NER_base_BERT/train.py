@@ -5,6 +5,9 @@ from transformers import BertTokenizerFast, BertForTokenClassification, Trainer,
 from seqeval.metrics import classification_report, f1_score
 import torch
 import os
+import time
+import psutil
+import GPUtil
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
@@ -38,7 +41,6 @@ def read_conll_data(file_path):
             labels.append(label)
     return sentences, labels
 
-# file_path = 'data/tagged_donor_sentences_2000.conll'
 file_path = 'data/labeled_sentences.conll'
 sentences, labels = read_conll_data(file_path)
 
@@ -140,6 +142,9 @@ class CustomTrainer(Trainer):
         labels = inputs.get("labels").to(device)
         return (loss, logits, labels)
 
+# Training with timing and performance metrics
+start_train_time = time.time()
+
 trainer = CustomTrainer(
     model=model,
     args=training_args,
@@ -151,6 +156,16 @@ trainer = CustomTrainer(
 
 trainer.train()
 
+end_train_time = time.time()
+training_time = end_train_time - start_train_time
+print(f"Training Time: {training_time:.4f} seconds")
+
+# CPU and Memory usage during training
+cpu_usage = psutil.cpu_percent(interval=None)
+memory_usage = psutil.virtual_memory().used / (1024 ** 3)  # GB
+print(f"CPU Usage during training: {cpu_usage}%")
+print(f"Memory Usage during training: {memory_usage:.2f}GB")
+
 # evaluation
 results = trainer.evaluate()
 print(results)
@@ -158,3 +173,8 @@ print(results)
 # save the last model
 trainer.save_model("./final_model")
 tokenizer.save_pretrained("./final_model")
+
+# Check model size
+model_dir = "./final_model"
+model_size = sum(os.path.getsize(os.path.join(model_dir, f)) for f in os.listdir(model_dir)) / (1024 ** 2)  # Convert to MB
+print(f"Model Size: {model_size:.2f} MB")

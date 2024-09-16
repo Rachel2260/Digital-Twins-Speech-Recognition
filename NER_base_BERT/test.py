@@ -2,8 +2,10 @@ import pandas as pd
 from datasets import Dataset
 from transformers import BertTokenizerFast, BertForTokenClassification, pipeline
 import torch
+import time
+import psutil
+import GPUtil
 import numpy as np
-import json
 from seqeval.metrics import classification_report, accuracy_score, f1_score, precision_score, recall_score
 
 def read_conll_data(file_path):
@@ -42,7 +44,6 @@ df = pd.DataFrame(data)
 dataset = Dataset.from_pandas(df)
 
 train_test_split = dataset.train_test_split(test_size=0.2)
-train_dataset = train_test_split['train']
 test_dataset = train_test_split['test']
 
 print("Loading saved model for inference...")
@@ -52,76 +53,39 @@ tokenizer = BertTokenizerFast.from_pretrained("./final_model")
 
 ner_pipe = pipeline("token-classification", model=model, tokenizer=tokenizer, device=0 if torch.cuda.is_available() else -1)
 
-print("Running inference on test set...")
-test_texts = [" ".join(words) for words in test_dataset['words']]
-test_labels = test_dataset['labels']
+# Measure inference time and resource usage
+start_time = time.time()
 
-# Perform NER on each sentence in the test set
+cpu_before = psutil.cpu_percent(interval=None)
+mem_before = psutil.virtual_memory().used / (1024 ** 3)  # GB
+gpus = GPUtil.getGPUs()
+gpu_before = gpus[0].load * 100 if gpus else None
+
+# Running inference on test set
+test_texts = [" ".join(words) for words in test_dataset['words']]
 test_results = [ner_pipe(text) for text in test_texts]
 
-# Merging subwords with preceding tokens and keeping 'O' for non-entity tokens
-def merge_subwords(tokens, entities):
-    merged_tokens = []
-    merged_entities = []
-    current_token = ""
-    current_entity = "O"  # Default to 'O' for non-entity tokens
-    current_confidence = 1.0
+cpu_after = psutil.cpu_percent(interval=None)
+mem_after = psutil.virtual_memory().used / (1024 ** 3)  # GB
+end_time = time.time()
+total_time = end_time - start_time
 
-    for token, entity in zip(tokens, entities):
-        if token.startswith("##"):
-            current_token += token[2:]  # Merge subword with the previous token
-        else:
-            if current_token:  # If a current_token is being built, add it to the result
-                merged_tokens.append(current_token)
-                merged_entities.append((current_entity, current_confidence))  # Track the entity type and confidence
-            current_token = token  # Start a new token
-            current_entity = entity['entity'] if 'entity' in entity else 'O'
-            current_confidence = entity['score'] if 'score' in entity else 1.0
-    if current_token:  # Add the last token
-        merged_tokens.append(current_token)
-        merged_entities.append((current_entity, current_confidence))
+gpus = GPUtil.getGPUs()
+gpu_after = gpus[0].load * 100 if gpus else None
 
-    return merged_tokens, merged_entities
+print(f"Inference Time: {total_time:.4f} seconds")
+print(f"CPU Usage before: {cpu_before}% after: {cpu_after}%")
+print(f"Memory Usage before: {mem_before:.2f}GB after: {mem_after:.2f}GB")
 
-# Aligning predictions and true labels
-def align_predictions_and_labels(test_results, test_labels):
-    preds = []
-    true_labels_merged = []
-
-    for i, (result, true_label) in enumerate(zip(test_results, test_labels)):
-        predicted_tokens = [entity['word'] for entity in result]
-        predicted_entities = [{'entity': entity.get('entity_group', entity.get('entity', 'O')), 'score': entity['score']} for entity in result]
-
-        # Merge subwords
-        merged_tokens, merged_entities = merge_subwords(predicted_tokens, predicted_entities)
-
-        # Align predictions with true labels
-        sentence_preds = [entity for entity, _ in merged_entities]
-
-        # For each token in the true label, if it is an 'O', it should remain as 'O' in the predicted output
-        aligned_preds = []
-        index = 0
-        for token, label in zip(test_dataset['words'][i], true_label):
-            if label == 'O':
-                aligned_preds.append('O')
-            else:
-                # Align the predicted entity with the true entity
-                aligned_preds.append(sentence_preds[index] if index < len(sentence_preds) else 'O')
-                index += 1
-        
-        preds.append(aligned_preds)
-        true_labels_merged.append(true_label)
-
-    return preds, true_labels_merged
-
-# Align predictions and true labels
-predictions, true_labels_merged = align_predictions_and_labels(test_results, test_dataset['labels'])
+if gpu_before and gpu_after:
+    print(f"GPU Usage before: {gpu_before}% after: {gpu_after}%")
 
 # Now calculate metrics using the seqeval library
-precision = precision_score(true_labels_merged, predictions, zero_division=1)
-recall = recall_score(true_labels_merged, predictions, zero_division=1)
-f1 = f1_score(true_labels_merged, predictions, zero_division=1)
-accuracy = accuracy_score(true_labels_merged, predictions)
+predictions = [[x['entity'] for x in result] for result in test_results]
+precision = precision_score(test_dataset['labels'], predictions, zero_division=1)
+recall = recall_score(test_dataset['labels'], predictions, zero_division=1)
+f1 = f1_score(test_dataset['labels'], predictions, zero_division=1)
+accuracy = accuracy_score(test_dataset['labels'], predictions)
 
 print(f"\nPrecision: {precision:.4f}")
 print(f"Recall: {recall:.4f}")
@@ -133,8 +97,3 @@ for i in range(5):  # Output 5 test examples
     print(f"\nText: {' '.join(test_dataset['words'][i])}")
     print(f"True Labels: {test_dataset['labels'][i]}")
     print(f"Predicted Labels: {predictions[i]}")
-
-# Generate the classification report
-print("\nClassification Report:")
-report = classification_report(true_labels_merged, predictions, zero_division=1)
-print(report)

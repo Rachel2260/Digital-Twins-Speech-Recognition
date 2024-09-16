@@ -2,9 +2,11 @@ env/
 .DS_Store
 .tmp
 .log
+.huggingface
 NER_base_BERT/final_model/
 NER_base_BERT/final_model_test/
 NER_base_BERT/results/
-OpenVINO_whisper/distil-whisper_distil-large-v2/
-OpenVINO_whisper/distil-whisper_distil-large-v2_quantized/
+distil-whisper/model
 distil-whisper/data
+test/final_model
+test/results
