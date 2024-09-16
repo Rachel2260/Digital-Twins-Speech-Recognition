@@ -1,3 +1,5 @@
+# source from https://docs.openvino.ai/2023.3/notebooks/267-distil-whisper-asr-with-output.html
+
 from pathlib import Path
 from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq
 from datasets import load_dataset
