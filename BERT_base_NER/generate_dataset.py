@@ -122,7 +122,7 @@ for _ in range(num_batches):
 enhanced_varied_sentences_df = pd.DataFrame(enhanced_varied_sentences, columns=["Sentence"])
 
 # Save to CSV
-csv_file_path = './data/varied_donor_sentences_1-3.csv'
+csv_file_path = './data/varied_donor_sentences_2000.csv'
 enhanced_varied_sentences_df.to_csv(csv_file_path, index=False)
 
 print(f"CSV file saved at: {csv_file_path}")

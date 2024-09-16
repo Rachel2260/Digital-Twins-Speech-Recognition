@@ -70,7 +70,7 @@ print(f"Result: {transcription[0]}")
 def get_cpu_usage():
     return psutil.cpu_percent(interval=None)
 
-# Function to measure performance with CPU usage and calculate WER
+# Function to measure performance with CPU usage and calculate WER (case-insensitive)
 def measure_perf(model, sample, processor, true_transcription, n=10):
     timers = []
     cpu_usages = []
@@ -94,8 +94,8 @@ def measure_perf(model, sample, processor, true_transcription, n=10):
         timers.append(end - start)
         cpu_usages.append(end_cpu - start_cpu)
 
-    # Calculate WER
-    transcription_wer = wer(true_transcription, transcription)
+    # Convert both transcriptions to lowercase for case-insensitive WER
+    transcription_wer = wer(true_transcription.lower(), transcription.lower())
 
     return np.median(timers), np.median(cpu_usages), transcription_wer
 
